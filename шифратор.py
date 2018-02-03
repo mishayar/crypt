@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # coding: utf-8
 
-step = 4
-alf = u'АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя'
+from lib import step , alf
+
 s1 = input('Введите текст: ')
 res = u''
 for c in s1:
